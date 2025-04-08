@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
 
-        if (transform.position.z < -zMin)
+        if (transform.position.z < zMin)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, zMin);
         }
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);  
         }
     }
 }
