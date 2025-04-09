@@ -814,6 +814,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5125708566652291409, guid: 07daecddd22e6bf4e8052f21355f1255, type: 3}
+      propertyPath: xRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125708566652291409, guid: 07daecddd22e6bf4e8052f21355f1255, type: 3}
+      propertyPath: verticalInput
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125708566652291409, guid: 07daecddd22e6bf4e8052f21355f1255, type: 3}
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 2149187791122088750}
